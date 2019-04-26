@@ -1,5 +1,4 @@
-
-#iINSTALL PYTHON3 AND GIT
+#INSTALL PYTHON3 AND GIT
 sudo apt-get install python3
 sudo apt-get install git
 
@@ -30,7 +29,6 @@ nano kaggle.json
 chmod 600 /home/Tanner/.kaggle/kaggle.json
 	#navigate to kaggle file folder of choice
 kaggle competitions download -c house-prices-advanced-regression-techniques
-
 
 #INSTALL PACKAGE DEPENDENCIES
 sudo apt-get update
@@ -80,7 +78,6 @@ source kaggle_second/bin/activate
 pip list
 pip freeze > requirements.txt
 rm -rf kaggle_second/
-
 	#activate a new project and then run to restore:
 pip install -r requirements.txt
 	#keep all system packages in pip list, but no new packages will be available in base
